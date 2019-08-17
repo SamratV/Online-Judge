@@ -18,8 +18,8 @@ RUN
 
 SETUID WRAPPER
 ---------------
-sudo chown root:root rsw
-sudo chmod 4755 rsw
+* sudo chown root:root rsw
+* sudo chmod 4755 rsw
 
 
 NOTE
