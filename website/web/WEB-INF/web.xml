@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Codepad</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet-mapping>
+    <servlet-name>auth</servlet-name>
+    <url-pattern>/auth</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>auth</servlet-name>
+    <servlet-class>auth.auth</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FPMailer</servlet-name>
+    <url-pattern>/FPMailer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FPMailer</servlet-name>
+    <servlet-class>auth.FPMailer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CAMailer</servlet-name>
+    <url-pattern>/CAMailer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CAMailer</servlet-name>
+    <servlet-class>auth.CAMailer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Compile</servlet-name>
+    <url-pattern>/Compile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Compile</servlet-name>
+    <servlet-class>compiler.Compile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Category</servlet-name>
+    <url-pattern>/Category</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Category</servlet-name>
+    <servlet-class>admin.Category</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Subcategory</servlet-name>
+    <url-pattern>/Subcategory</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Subcategory</servlet-name>
+    <servlet-class>admin.Subcategory</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UQStatement</servlet-name>
+    <url-pattern>/UQStatement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UQStatement</servlet-name>
+    <servlet-class>admin.UQStatement</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UTQStatement</servlet-name>
+    <url-pattern>/UTQStatement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UTQStatement</servlet-name>
+    <servlet-class>admin.UTQStatement</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EQStatement</servlet-name>
+    <url-pattern>/EQStatement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EQStatement</servlet-name>
+    <servlet-class>admin.EQStatement</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ETQStatement</servlet-name>
+    <url-pattern>/ETQStatement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ETQStatement</servlet-name>
+    <servlet-class>admin.ETQStatement</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UploadTC</servlet-name>
+    <url-pattern>/UploadTC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UploadTC</servlet-name>
+    <servlet-class>admin.UploadTC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>VerifyTC</servlet-name>
+    <url-pattern>/VerifyTC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>VerifyTC</servlet-name>
+    <servlet-class>admin.VerifyTC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewTC</servlet-name>
+    <url-pattern>/ViewTC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>ViewTC</servlet-name>
+      <servlet-class>admin.ViewTC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DownloadTC</servlet-name>
+    <url-pattern>/DownloadTC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DownloadTC</servlet-name>
+    <servlet-class>admin.DownloadTC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddTest</servlet-name>
+    <url-pattern>/AddTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddTest</servlet-name>
+    <servlet-class>admin.AddTest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EditTest</servlet-name>
+    <url-pattern>/EditTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EditTest</servlet-name>
+    <servlet-class>admin.EditTest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>USolution</servlet-name>
+    <url-pattern>/USolution</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>USolution</servlet-name>
+    <servlet-class>admin.USolution</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UCompile</servlet-name>
+    <url-pattern>/UCompile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UCompile</servlet-name>
+    <servlet-class>compiler.UCompile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Tester</servlet-name>
+    <url-pattern>/Tester</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Tester</servlet-name>
+    <servlet-class>compiler.Tester</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DownloadQS</servlet-name>
+    <url-pattern>/DownloadQS</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DownloadQS</servlet-name>
+    <servlet-class>admin.DownloadQS</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteQ</servlet-name>
+    <url-pattern>/DeleteQ</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteQ</servlet-name>
+    <servlet-class>admin.DeleteQ</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteTest</servlet-name>
+    <url-pattern>/DeleteTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteTest</servlet-name>
+    <servlet-class>admin.DeleteTest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>admin.DeleteUser</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FillDetails</servlet-name>
+    <url-pattern>/FillDetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FillDetails</servlet-name>
+    <servlet-class>admin.FillDetails</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MassApp</servlet-name>
+    <url-pattern>/MassApp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MassApp</servlet-name>
+    <servlet-class>admin.MassApp</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ResetPass</servlet-name>
+    <url-pattern>/ResetPass</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ResetPass</servlet-name>
+    <servlet-class>admin.ResetPass</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EResetPass</servlet-name>
+    <url-pattern>/EResetPass</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EResetPass</servlet-name>
+    <servlet-class>admin.EResetPass</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateProfile</servlet-name>
+    <url-pattern>/UpdateProfile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateProfile</servlet-name>
+    <servlet-class>admin.UpdateProfile</servlet-class>
+  </servlet>
+
+  <context-param>
+    <description>Compilation workspace</description>
+    <param-name>workspace</param-name>
+    <param-value>
+        /path-to-workspace/Codepad/runtime/
+	</param-value>
+  </context-param>
+
+  <context-param>
+    <description>Testcase storage</description>
+    <param-name>io</param-name>
+    <param-value>
+        /path-to-workspace/Codepad/tc/
+	</param-value>
+  </context-param>
+
+  <context-param>
+    <description>Temporary storage</description>
+    <param-name>temp</param-name>
+    <param-value>
+        /path-to-workspace/Codepad/tmp/
+	</param-value>
+  </context-param>
+</web-app>
