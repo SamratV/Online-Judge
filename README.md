@@ -15,6 +15,7 @@ Edits required
 ---------------
 * Edit <b>website/src/auth/Mailer.java</b> using your email and password after subscribing for google mail service.
 * Edit <b>website/src/link/Link.java</b> using your database credentials.
+* Replace <b>path-to-workspace</b> in <b>web.xml</b> with a suitable path such as <b>home/username/Desktop</b>.
 
 Login Id
 ---------
