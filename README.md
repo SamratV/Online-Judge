@@ -17,10 +17,14 @@ Edits required
 * Edit <b>website/src/link/Link.java</b> using your database credentials.
 * Replace <b>path-to-workspace</b> in <b>web.xml</b> with a suitable path such as <b>home/username/Desktop</b>.
 
-Login Id
+Login id
 ---------
 * Email: root@codepadoj.com
 * Password: 123456
+
+Demo video
+-----------
+* Link: https://www.linkedin.com/posts/vaibhaw-samrat-76511813a_my-btech-final-year-project-an-online-judge-activity-6568790862925529088-ccIw
 
 Deployment
 -----------
