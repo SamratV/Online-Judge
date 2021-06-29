@@ -24,7 +24,8 @@ Login id
 
 Demo video
 -----------
-* Link: https://www.linkedin.com/posts/vaibhaw-samrat-76511813a_my-btech-final-year-project-an-online-judge-activity-6568790862925529088-ccIw
+* Link 1 (LinkedIn - SD quality only): https://www.linkedin.com/posts/vaibhaw-samrat-76511813a_my-btech-final-year-project-an-online-judge-activity-6568790862925529088-ccIw
+* Link 2 (Google Drive - can be viewed in HD quality): https://drive.google.com/file/d/1201HCjKUiBbg9pYA792fWk_rZNR2_2Yp/view?usp=sharing
 
 Deployment
 -----------
